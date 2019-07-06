@@ -1,0 +1,39 @@
+{
+  "name": "webpack-basic-site-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode development --env.NODE_ENV=development",
+    "prod": "webpack --mode production --env.NODE_ENV=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inigopascall/webpack-basic-site-config.git"
+  },
+  "author": "Inigo Pascall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inigopascall/webpack-basic-site-config/issues"
+  },
+  "homepage": "https://github.com/inigopascall/webpack-basic-site-config#readme",
+  "dependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "terser-webpack-plugin": "^1.3.0",
+    "url-loader": "^2.0.1",
+    "webpack-php-asset-versioning": "^1.0.2"
+  }
+}
