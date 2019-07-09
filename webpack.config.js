@@ -37,6 +37,7 @@ module.exports = {
                     loader: 'url-loader',
                     options: {
                       limit: 5000,
+                        name: '[name].[ext]',
                         outputPath: 'fonts'
                     },
                   },
